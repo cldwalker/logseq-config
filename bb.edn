@@ -1,0 +1,33 @@
+{:deps
+ {org.babashka/cli {:mvn/version "0.3.35"}}
+
+ :tasks
+ {:requires ([babashka.fs :as fs]
+             [cheshire.core :as json]
+             [clojure.pprint :as pprint]
+             [babashka.cli :as cli])
+
+  :init (def cmd-line-opts (cli/parse-opts *command-line-args*))
+
+  list-plugins
+  {:doc "List plugins from ~/.logseq/plugins"
+   :task (let [map-fn (cond
+                        (:deps cmd-line-opts)
+                        (juxt :name :dependencies)
+                        (:full cmd-line-opts)
+                        (juxt :name (fn [m] (dissoc m :name)))
+                        :else
+                        (juxt :name :version))]
+           (->> (fs/glob (fs/expand-home "~/.logseq/plugins") "*/package.json")
+                (map (comp slurp str))
+                (map (fn [body] (json/parse-string body keyword)))
+                (map map-fn)
+                (into {})
+                pprint/pprint))}
+
+  write-plugins
+  {:doc "Write installed plugins to ~/.logseq/plugins.edn"
+   :task (do
+           (spit (str (fs/expand-home "~/.logseq/plugins.edn"))
+                (with-out-str (run 'list-plugins)))
+           (println "Wrote plugins.edn!"))}}}

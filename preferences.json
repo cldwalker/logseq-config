@@ -1,0 +1,15 @@
+{
+  "theme": null,
+  "themes": {
+    "mode": "light",
+    "light": {
+      "name": "Luma Light",
+      "url": "assets:///Users/me/.logseq/plugins/logseq-luma/custom.css",
+      "description": "A minimal and detail oriented light theme for Logseq",
+      "mode": "light",
+      "pid": "logseq-luma"
+    },
+    "dark": null
+  },
+  "externals": []
+}
