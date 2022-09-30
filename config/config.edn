@@ -4,8 +4,6 @@
  :shortcuts
  {:ui/toggle-theme "t z"
   :ui/toggle-brackets "t b"
-  :editor/select-up ["shift+up" "shift+p"]
-  :editor/select-down ["shift+down" "shift+n"]
   :editor/collapse-block-children ["mod+up" "mod+p"]
   :editor/expand-block-children ["mod+down" "mod+n"]
   ;; couldn't do mod+shift+p so settled for close letter
