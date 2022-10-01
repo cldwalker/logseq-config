@@ -23,8 +23,6 @@
  {"mark" "[:mark \"$1\"]"
   "rose" "Rose is $1, violet's $2. Life's ordered: Org assists you."}
 
- :rich-property-values? true
-
  :preferred-workflow :todo
 
  ;; Add your own commands to speedup.
