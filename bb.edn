@@ -23,11 +23,4 @@
                 (map (fn [body] (json/parse-string body keyword)))
                 (map map-fn)
                 (into {})
-                pprint/pprint))}
-
-  write-plugins
-  {:doc "Write installed plugins to ~/.logseq/plugins.edn"
-   :task (do
-           (spit (str (fs/expand-home "~/.logseq/plugins.edn"))
-                (with-out-str (run 'list-plugins)))
-           (println "Wrote plugins.edn!"))}}}
+                pprint/pprint))}}}
