@@ -18,13 +18,13 @@ $ git clone https://github.com/cldwalker/logseq-config .
 $ cp -R config ~.logseq/config
 ```
 
-Alternatively, you can copy over files for more granular usage.
+Alternatively, you can copy over specific files for more granular usage.
 
 ## Plugins
 
-To see the plugins I use, see [config/plugins.edn](config/plugins.edn).
-
-TODO: Explain how to use my plugins once https://github.com/logseq/logseq/pull/6911 lands.
+[Here](config/plugins.edn) are the plugins I use. To try my plugins, see
+instructions under the `Functionality` section in
+https://docs.logseq.com/#/page/plugins.edn.
 
 ## Convert your local graph config to a global one
 
@@ -60,8 +60,7 @@ share experiences in case it helps others.
 
 Be sure to have [babashka](https://github.com/babashka/babashka) installed.
 
-Run `bb tasks` to see available tasks. Currently there are tasks for listing plugins
-and writing a `plugins.edn`.
+Run `bb tasks` to see available tasks. Currently there are tasks for listing plugins.
 
 ## License
 See LICENSE.md
