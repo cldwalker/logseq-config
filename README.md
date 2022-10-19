@@ -22,8 +22,8 @@ Alternatively, you can copy over specific files for more granular usage.
 
 ## Plugins
 
-[Here](config/plugins.edn) are the plugins I use. To try my plugins, see
-instructions under the `Functionality` section in
+The list of plugins I currently use are in [this file](config/plugins.edn). To
+try my plugins, see instructions under the `Functionality` section in
 https://docs.logseq.com/#/page/plugins.edn.
 
 ## Convert your local graph config to a global one
