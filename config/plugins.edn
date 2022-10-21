@@ -8,4 +8,5 @@
  :logseq-osmmaps-plugin {:version "v1.5", :repo "hkgnp/logseq-osmmaps-plugin", :effect true, :theme false}
  :logseq-vim-shortcuts {:version "v0.1.15", :repo "vipzhicheng/logseq-plugin-vim-shortcuts", :effect true, :theme false}
  :logseq-plugin-gpt3-openai {:version "v1.0.1", :repo "briansunter/logseq-plugin-gpt3-openai", :effect true, :theme false}
- :logseq-fenced-code-plus {:version "0.0.4", :repo "xyhp915/logseq-fenced-code-plus", :effect true, :theme false}}
+ :logseq-fenced-code-plus {:version "0.0.4", :repo "xyhp915/logseq-fenced-code-plus", :effect true, :theme false}
+ :logseq-flow-theme {:version "0.2.3", :repo "nmartin84/logseq-flow", :effect false, :theme true}}

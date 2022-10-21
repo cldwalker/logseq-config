@@ -1,7 +1,7 @@
 {
   "theme": null,
   "themes": {
-    "mode": "light",
+    "mode": "dark",
     "light": {
       "name": "Luma Light",
       "url": "assets:///Users/me/.logseq/plugins/logseq-luma/custom.css",
@@ -9,7 +9,13 @@
       "mode": "light",
       "pid": "logseq-luma"
     },
-    "dark": null
+    "dark": {
+      "name": "Adventure Time",
+      "url": "assets:///Users/me/.logseq/plugins/logseq-flow-theme/src/adventuretime.css",
+      "description": "Adventure Time",
+      "mode": "dark",
+      "pid": "logseq-flow-theme"
+    }
   },
   "externals": []
 }
