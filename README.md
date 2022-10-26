@@ -15,7 +15,7 @@ $ mv ~/.logseq/config ~/.logseq/config.bak
 $ git clone https://github.com/cldwalker/logseq-config .
 
 # Copy over my config
-$ cp -R config ~.logseq/config
+$ cp -R config ~/.logseq/config
 ```
 
 Alternatively, you can copy over specific files for more granular usage.
