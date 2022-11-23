@@ -48,7 +48,7 @@ share experiences in case it helps others.
 * https://github.com/hkgnp/logseq-mermaid-plugin - Switched from this to logseq-fenced-code-plus as I prefer my content to stay local.
 * https://github.com/hkgnp/logseq-quicktodo-plugin - This focuses just on quickly adding TODOs. I like to quickly capture content that isn't always a TODO.
 * https://github.com/haydenull/logseq-plugin-agenda - One of the most beautiful plugins I've tried. Unfortunately the dashboard view isn't useful to me with so many TODOs, even when I filter out with one tag. The calendar view was sometimes nice but didn't use it enough.
-* https://github.com/yoyurec/logseq-solarized-extended-theme - Great looking theme. Liked it initially but then it got one too many features and didn't have ways to toggle them off
+* https://github.com/yoyurec/logseq-awesome-styler - Great looking theme. Liked it initially but then it got one too many features and didn't have ways to toggle them off
 * https://github.com/pengx17/logseq-plugin-tabs - Was useful initially but then I found it accrued too many tabs while navigating back and forth, which created too much visual clutter
 * https://github.com/benjaffe/logseq-reference-styles - Fun plugin to configure emojis for block refs. Found I didn't use it much
 * https://github.com/sawhney17/logseq-property-visualizer - Interesting usage of properties but found I didn't use it much
