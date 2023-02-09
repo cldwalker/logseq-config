@@ -66,4 +66,5 @@ Run `bb tasks` to see available tasks. Currently there are tasks for listing plu
 See LICENSE.md
 
 ## Additional Links
-* https://cs.github.com/?scopeName=All+repos&scope=&q=logseq+path%3Alogseq%2Fconfig.edn - Github search for additional logseq configurations
+* https://github.com/search?q=logseq+path%3Aconfig%2Fconfig.edn&ref=opensearch&type=code - Github search for additional global configurations
+* https://github.com/search?q=logseq+path%3Alogseq%2Fconfig.edn&ref=opensearch&type=code - Github search for additional repo/graph configurations
