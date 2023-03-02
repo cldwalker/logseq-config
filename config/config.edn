@@ -16,6 +16,8 @@
   :editor/copy-current-file "ctrl+shift+y"
   ;; alt+shift adds ˝ in insert mode
   :graph/open ["alt+shift+g" "mod+shift+o"]
+  ;; Turn off conflict warning - most likely with vim
+  :plugin.logseq-plugin-gpt3-openai/$shortcut$mod_j false
   }
 
  ;; Macros replace texts and will make you more productive.

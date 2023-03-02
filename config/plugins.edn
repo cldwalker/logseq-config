@@ -1,12 +1,12 @@
 {:logseq-power-plugin {:version "v1.0.0", :repo "hkgnp/logseq-power-plugin", :effect true, :theme false}
- :logtools {:version "0.0.5", :repo "cannibalox/logtools", :effect false, :theme false}
+ :logtools {:version "0.1.1", :repo "cannibalox/logtools", :effect false, :theme false}
  :logseq-swapblocks-plugin {:version "v1.3.0", :repo "hkgnp/logseq-swapblocks-plugin", :effect false, :theme false}
  :logseq-tablerender-plugin {:version "v1.9.0", :repo "hkgnp/logseq-tablerender-plugin", :effect false, :theme false}
  :logseq-heatmap {:version "v2.4.3", :repo "pengx17/logseq-plugin-heatmap", :effect true, :theme false}
- :logseq-bullet-threading {:version "v1.1.0", :repo "pengx17/logseq-plugin-bullet-threading", :effect false, :theme false}
- :logseq-osmmaps-plugin {:version "v1.5", :repo "hkgnp/logseq-osmmaps-plugin", :effect true, :theme false}
- :logseq-vim-shortcuts {:version "v0.1.16", :repo "vipzhicheng/logseq-plugin-vim-shortcuts", :effect true, :theme false}
- :logseq-plugin-gpt3-openai {:version "v1.2.1", :repo "briansunter/logseq-plugin-gpt3-openai", :effect true, :theme false}
- :logseq-fenced-code-plus {:version "0.0.4", :repo "xyhp915/logseq-fenced-code-plus", :effect true, :theme false}
+ :logseq-bullet-threading {:version "v1.1.1", :repo "pengx17/logseq-plugin-bullet-threading", :effect false, :theme false}
+ :logseq-osmmaps-plugin {:version "2.0.3", :repo "hkgnp/logseq-osmmaps-plugin", :effect true, :theme false}
+ :logseq-vim-shortcuts {:version "v0.1.17", :repo "vipzhicheng/logseq-plugin-vim-shortcuts", :effect true, :theme false}
+ :logseq-plugin-gpt3-openai {:version "v1.6.1", :repo "briansunter/logseq-plugin-gpt3-openai", :effect true, :theme false}
+ :logseq-fenced-code-plus {:version "0.0.5", :repo "xyhp915/logseq-fenced-code-plus", :effect true, :theme false}
  :logseq-flow-theme {:version "0.2.3", :repo "nmartin84/logseq-flow", :effect false, :theme true}
  :logseq-url-plus {:version "0.0.2", :repo "rlhk/logseq-url-plus", :effect true, :theme false}}
