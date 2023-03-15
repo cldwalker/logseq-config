@@ -9,13 +9,7 @@
       "mode": "light",
       "pid": "logseq-luma"
     },
-    "dark": {
-      "name": "Adventure Time",
-      "url": "assets:///Users/me/.logseq/plugins/logseq-flow-theme/src/adventuretime.css",
-      "description": "Adventure Time",
-      "mode": "dark",
-      "pid": "logseq-flow-theme"
-    }
+    "dark": null
   },
   "externals": []
 }
