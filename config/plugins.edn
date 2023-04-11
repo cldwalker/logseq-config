@@ -6,6 +6,6 @@
  :logseq-bullet-threading {:version "v1.1.1", :repo "pengx17/logseq-plugin-bullet-threading", :effect false, :theme false}
  :logseq-osmmaps-plugin {:version "2.0.3", :repo "hkgnp/logseq-osmmaps-plugin", :effect true, :theme false}
  :logseq-vim-shortcuts {:version "v0.1.17", :repo "vipzhicheng/logseq-plugin-vim-shortcuts", :effect true, :theme false}
- :logseq-plugin-gpt3-openai {:version "v1.6.1", :repo "briansunter/logseq-plugin-gpt3-openai", :effect true, :theme false}
+ :logseq-plugin-gpt3-openai {:version "v1.10.0", :repo "briansunter/logseq-plugin-gpt3-openai", :effect true, :theme false}
  :logseq-fenced-code-plus {:version "0.0.5", :repo "xyhp915/logseq-fenced-code-plus", :effect true, :theme false}
  :logseq-url-plus {:version "0.1.0", :repo "rlhk/logseq-url-plus", :effect true, :theme false}}
