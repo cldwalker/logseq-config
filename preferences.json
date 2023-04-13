@@ -11,5 +11,6 @@
     },
     "dark": null
   },
-  "externals": []
+  "externals": [],
+  "pinnedToolbarItems": []
 }
