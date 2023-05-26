@@ -3,9 +3,9 @@
  :logseq-swapblocks-plugin {:version "1.3.1", :repo "hkgnp/logseq-swapblocks-plugin", :effect false, :theme false}
  :logseq-tablerender-plugin {:version "1.9.2", :repo "hkgnp/logseq-tablerender-plugin", :effect false, :theme false}
  :logseq-heatmap {:version "v2.4.3", :repo "pengx17/logseq-plugin-heatmap", :effect true, :theme false}
- :logseq-bullet-threading {:version "v1.1.1", :repo "pengx17/logseq-plugin-bullet-threading", :effect false, :theme false}
+ :logseq-bullet-threading {:version "v1.1.2", :repo "pengx17/logseq-plugin-bullet-threading", :effect false, :theme false}
  :logseq-osmmaps-plugin {:version "2.2.2", :repo "hkgnp/logseq-osmmaps-plugin", :effect true, :theme false}
- :logseq-vim-shortcuts {:version "v0.1.18", :repo "vipzhicheng/logseq-plugin-vim-shortcuts", :effect true, :theme false}
+ :logseq-vim-shortcuts {:version "v0.1.19", :repo "vipzhicheng/logseq-plugin-vim-shortcuts", :effect true, :theme false}
  :logseq-plugin-gpt3-openai {:version "v1.10.0", :repo "briansunter/logseq-plugin-gpt3-openai", :effect true, :theme false}
  :logseq-fenced-code-plus {:version "0.0.6", :repo "xyhp915/logseq-fenced-code-plus", :effect true, :theme false}
  :logseq-url-plus {:version "0.1.2", :repo "rlhk/logseq-url-plus", :effect true, :theme false}}
