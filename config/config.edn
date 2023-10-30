@@ -33,6 +33,7 @@
  :commands
  []
 
+ :dev/validate-db-options {:known-schema? true :closed-schema? true :fail-invalid? true}
  :outliner/block-title-collapse-enabled? true
 
  :query/views
