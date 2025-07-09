@@ -5,8 +5,8 @@
  {:ui/toggle-theme "t z"
   :ui/toggle-brackets "t b"
   ;; couldn't do mod+shift+p so settled for close letter
-  :editor/move-block-up ["mod+shift+up" "mod+shift+m"]
-  :editor/move-block-down ["mod+shift+down" "mod+shift+n"]
+  :editor/move-block-up ["mod+shift+up"]
+  :editor/move-block-down ["mod+shift+down"]
   ;; TODO: Find better pair for forward and back
   ; :editor/forward-word ["mod+shift+f"]
   ; :editor/backward-word ["mod+shift+b"]
