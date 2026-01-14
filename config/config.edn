@@ -7,16 +7,12 @@
   ;; couldn't do mod+shift+p so settled for close letter
   :editor/move-block-up ["mod+shift+up"]
   :editor/move-block-down ["mod+shift+down"]
-  ;; TODO: Find better pair for forward and back
-  ; :editor/forward-word ["mod+shift+f"]
-  ; :editor/backward-word ["mod+shift+b"]
-  :editor/open-file-in-default-app "ctrl+shift+a"
-  :editor/copy-current-file "ctrl+shift+y"
   ;; alt+shift adds ˝ in insert mode
   :graph/open ["alt+shift+g" "mod+shift+o"]
   :ui/clear-all-notifications  ["ctrl+, q"]
-  ;; Turn off conflict warning - most likely with vim
-  :plugin.logseq-plugin-gpt3-openai/$shortcut$mod_j false
+  ;; Just for file graph app
+  :editor/open-file-in-default-app "ctrl+shift+a"
+  :editor/copy-current-file "ctrl+shift+y"
   }
 
  ;; Macros replace texts and will make you more productive.
@@ -46,5 +42,4 @@
 
  :quick-capture-templates
  {:text "{text}{url}"
-  :media "[[quick capture]] **{time}**: {url}"}
- }
+  :media "[[quick capture]] **{time}**: {url}"}}

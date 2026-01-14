@@ -1,8 +1,4 @@
-{:logseq-power-plugin {:version "v1.0.0", :repo "hkgnp/logseq-power-plugin", :effect true, :theme false}
- :logseq-tablerender-plugin {:version "v2.3.2", :repo "hkgnp/logseq-tablerender-plugin", :effect false, :theme false}
- :logseq-heatmap {:version "v2.4.3", :repo "pengx17/logseq-plugin-heatmap", :effect true, :theme false}
+{ ;; TBD if power-plugin will work
+ :logseq-power-plugin {:version "v1.0.0", :repo "hkgnp/logseq-power-plugin", :effect true, :theme false}
  :logseq-bullet-threading {:version "v1.1.4", :repo "pengx17/logseq-plugin-bullet-threading", :effect false, :theme false}
- :logseq-vim-shortcuts {:version "v0.1.19", :repo "vipzhicheng/logseq-plugin-vim-shortcuts", :effect true, :theme false}
- :logseq-plugin-gpt3-openai {:version "v1.10.0", :repo "briansunter/logseq-plugin-gpt3-openai", :effect true, :theme false}
- :logseq-fenced-code-plus {:version "0.0.7", :repo "xyhp915/logseq-fenced-code-plus", :effect true, :theme false}
- :logseq-url-plus {:version "0.1.2", :repo "rlhk/logseq-url-plus", :effect true, :theme false}}
+ :logseq-vim-shortcuts {:version "v0.2.0", :repo "vipzhicheng/logseq-plugin-vim-shortcuts", :effect true, :theme false}}
