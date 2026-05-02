@@ -23,4 +23,8 @@
                 (map (fn [body] (json/parse-string body keyword)))
                 (map map-fn)
                 (into {})
-                pprint/pprint))}}}
+                pprint/pprint))}
+
+  setup
+  {:doc "Symlink this config directory into the current directory"
+   :task (shell "ln" "-is" (str (fs/cwd)) (fs/expand-home "~/.logseq"))}}}
